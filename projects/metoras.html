@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metoras | AI-Powered E-commerce SaaS Case Study | Javier Gonzalez Noha</title>
+  <meta name="description" content="Metoras is a functional private-preview SaaS application for AI-assisted eBay listing creation, listing analysis, and review-driven optimization.">
+  <meta name="theme-color" content="#f4f1e8">
+  <link rel="canonical" href="https://jagnoha.github.io/projects/metoras.html">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/site.css?v=20261022">
+  <meta property="og:title" content="Metoras | AI-Powered E-commerce SaaS Case Study">
+  <meta property="og:description" content="A full-stack SaaS platform for AI-assisted eBay listing creation, listing analysis, and controlled automation. Functional private preview.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://jagnoha.github.io/projects/metoras.html">
+  <meta property="og:image" content="https://jagnoha.github.io/assets/social-preview.png">
+  <meta property="og:image:alt" content="Javier Gonzalez Noha, Senior Software Engineer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Metoras | AI-Powered E-commerce SaaS Case Study">
+  <meta name="twitter:description" content="AI-assisted eBay listing workflows and controlled automation in a functional private-preview SaaS application.">
+  <meta name="twitter:image" content="https://jagnoha.github.io/assets/social-preview.png">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header detail-nav" data-header><div class="shell nav-wrap">
+    <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">JG</span><span>Javier Gonzalez Noha</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation"><a href="../index.html#projects" aria-current="page">Projects</a><a href="../index.html#experience">Experience</a><a href="../index.html#contact">Contact</a><a class="nav-resume" href="../assets/resumes/senior-full-stack-platform.pdf" download="Javier-Gonzalez-Noha-Senior-Full-Stack-Platform-Engineer.pdf">Résumé<span class="sr-only">. Download Senior Full-Stack and Platform Engineer PDF</span></a><button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme"><span aria-hidden="true">◐</span></button></nav>
+  </div></header>
+  <main class="detail-main" id="main">
+    <section class="detail-hero"><div class="shell"><p class="breadcrumb"><a href="../index.html#projects">Selected work</a> / Metoras</p><div class="detail-hero-grid"><div><p class="kicker">AI-powered e-commerce SaaS platform</p><h1>Metoras</h1><p class="lede">Designed and developed a full-stack SaaS application that helps eBay resellers create, publish, analyze, and improve product listings through AI-assisted workflows and controlled automation.</p><a class="button primary detail-cta" href="https://metoras.com" target="_blank" rel="noopener">Visit Metoras <span class="sr-only">(opens in new tab)</span><span aria-hidden="true">↗</span></a></div><dl class="detail-facts"><div><dt>Context</dt><dd>Independent SaaS product</dd></div><div><dt>Role</dt><dd>Full-stack product architecture &amp; engineering</dd></div><div><dt>Status</dt><dd>Functional private preview</dd></div><div><dt>Product</dt><dd>Studio · Copilot</dd></div><div><dt>Website</dt><dd><a class="inline-link" href="https://metoras.com" target="_blank" rel="noopener">metoras.com<span class="sr-only"> (opens in new tab)</span> ↗</a></dd></div></dl></div></div></section>
+
+    <section class="detail-section" id="product-overview"><div class="shell"><div class="section-heading"><div><p class="kicker">01 / Product overview</p><h2>Two connected workflows for smarter selling.</h2></div><p>Metoras brings AI-assisted listing creation and live-listing improvement into one seller workspace.</p></div><div class="product-workflows">
+      <article class="workflow-card workflow-studio"><div class="workflow-card-top"><span class="workflow-icon" aria-hidden="true">✦</span><span class="workflow-number">01</span></div><h3>Studio</h3><p>Turn product photographs into validated, marketplace-ready listing drafts.</p><div class="workflow-capabilities" aria-label="Studio capabilities"><span>AI-generated listing fields</span><span>Image cleanup</span><span>eBay validation &amp; publishing</span></div></article>
+      <article class="workflow-card workflow-copilot"><div class="workflow-card-top"><span class="workflow-icon" aria-hidden="true">◎</span><span class="workflow-number">02</span></div><h3>Copilot</h3><p>Analyze live listings and surface controlled, reviewable improvements.</p><div class="workflow-capabilities" aria-label="Copilot capabilities"><span>Listing quality analysis</span><span>Grouped recommendations</span><span>Rule-based previews</span></div></article>
+    </div></div></section>
+
+    <section class="detail-section architecture metoras-architecture" id="architecture"><div class="shell"><div class="detail-copy"><div><p class="kicker">02 / Engineering architecture</p><h2>Product interactions stay separate from business logic.</h2></div><div class="prose"><p>The application uses a workspace-based monorepo with a Next.js frontend, a domain-oriented NestJS API, and a separate worker for asynchronous processing.</p><p>PostgreSQL and Supabase services provide the durable data and access layer, while provider integrations remain behind backend boundaries.</p></div></div><figure class="system-map" aria-labelledby="metoras-architecture-caption">
+      <figcaption class="sr-only" id="metoras-architecture-caption">Metoras system architecture. The frontend communicates with the backend API. The backend API hands asynchronous jobs to a separate background worker process. Both runtime processes use shared data, identity, and external integration services.</figcaption>
+      <article class="system-card system-frontend">
+        <p class="system-card-label">Interface layer</p>
+        <h3>Frontend</h3>
+        <p class="system-card-summary">Browser application deployed on Vercel</p>
+        <div class="system-tags" role="list" aria-label="Frontend technologies"><span role="listitem">Next.js App Router</span><span role="listitem">React</span><span role="listitem">TypeScript</span><span role="listitem">Tailwind CSS</span><span role="listitem">Vercel</span></div>
+      </article>
+      <div class="system-vertical-connector" aria-hidden="true"><span>Request / response</span></div>
+      <div class="system-runtime-group" aria-label="Separate runtime processes">
+        <p class="system-group-label">Separate runtime processes</p>
+        <article class="system-card system-api">
+          <p class="system-card-label">Synchronous runtime</p>
+          <h3>Backend API</h3>
+          <p class="system-card-summary">Domain services and provider boundaries</p>
+          <div class="system-tags" role="list" aria-label="Backend API responsibilities"><span role="listitem">NestJS</span><span role="listitem">Domain-oriented services</span><span role="listitem">Authentication and authorization</span><span role="listitem">Business logic</span><span role="listitem">External API orchestration</span></div>
+        </article>
+        <div class="system-job-connector" aria-hidden="true"><span>Job handoff</span></div>
+        <article class="system-card system-worker">
+          <p class="system-card-label">Asynchronous runtime</p>
+          <h3>Background worker</h3>
+          <p class="system-card-summary">Long-running work outside browser requests</p>
+          <div class="system-tags" role="list" aria-label="Background worker responsibilities"><span role="listitem">Asynchronous listing generation</span><span role="listitem">Copilot scans</span><span role="listitem">Automation jobs</span><span role="listitem">Retry and failure handling</span></div>
+        </article>
+      </div>
+      <div class="system-shared-connector" aria-hidden="true"><span>Shared by both runtimes</span></div>
+      <div class="system-services" aria-label="Shared data, identity, and integration services">
+        <article class="system-card system-data">
+          <p class="system-card-label">Shared foundation</p>
+          <h3>Data and identity</h3>
+          <p class="system-card-summary">Durable, owner-scoped application services</p>
+          <div class="system-tags" role="list" aria-label="Data and identity technologies"><span role="listitem">Supabase</span><span role="listitem">PostgreSQL</span><span role="listitem">Row-Level Security</span><span role="listitem">Authentication</span><span role="listitem">Storage</span></div>
+        </article>
+        <article class="system-card system-integrations">
+          <p class="system-card-label">Provider boundary</p>
+          <h3>External integrations</h3>
+          <p class="system-card-summary">Server-side connections behind the API and worker</p>
+          <div class="system-tags" role="list" aria-label="External providers"><span role="listitem">OpenAI</span><span role="listitem">eBay APIs</span><span role="listitem">Stripe</span><span role="listitem">Image cleanup provider</span></div>
+        </article>
+      </div>
+    </figure></div></section>
+
+    <section class="detail-section" id="engineering-highlights"><div class="shell"><div class="section-heading"><div><p class="kicker">03 / Engineering highlights</p><h2>Automation built around review and control.</h2></div><p>The design treats AI output and external provider responses as inputs to validate, not as authority to change marketplace state.</p></div><div class="highlight-grid">
+      <article class="highlight-featured"><div class="highlight-meta"><span>01</span><strong>Featured control</strong></div><h3>Human-in-the-loop automation</h3><p>Copilot groups related issues, supports configurable rules, and presents proposed changes for review before they reach live listings.</p></article>
+      <article><span>02</span><h3>AI-assisted listing workflows</h3><p>Structured listing generation from product images combines content generation, field validation, pricing guidance, and asynchronous processing.</p></article>
+      <article><span>03</span><h3>External platform integrations</h3><p>Backend services coordinate eBay OAuth, account connections, seller policies, listing publishing, and relisting workflows.</p></article>
+      <article><span>04</span><h3>Security and data isolation</h3><p>Encrypted eBay token storage, server-side provider credentials, Row-Level Security, and owner-scoped controls protect seller data and accounts.</p></article>
+      <article><span>05</span><h3>Operational reliability</h3><p>Background workers, job tracking and retries, health monitoring, and cached image-cleanup results address external failures and redundant provider costs.</p></article>
+    </div></div></section>
+
+    <section class="detail-section boundary-section"><div class="shell boundary-grid"><div><p class="kicker">04 / Technical challenges</p><h2>Design decisions at system boundaries.</h2></div><ul class="boundary-list"><li><strong>Marketplace constraints</strong><span>Coordinate probabilistic AI-generated content with eBay’s strict category, field, policy, and publishing requirements.</span></li><li><strong>Reviewable automation</strong><span>Keep potentially risky changes visible and reversible through grouped recommendations and preview-first workflows.</span></li><li><strong>Async failure handling</strong><span>Track long-running jobs, retries, and external API failures without tying processing to a browser request.</span></li><li><strong>Connected-account security</strong><span>Protect seller data, OAuth tokens, and provider credentials while enforcing owner-scoped access.</span></li><li><strong>Clear application boundaries</strong><span>Separate frontend interactions from backend business rules, provider orchestration, and durable data access.</span></li></ul></div></section>
+
+    <section class="detail-section"><div class="shell"><div class="status-banner"><h3>Functional application in private preview</h3><p>Metoras is a working SaaS application currently available through a controlled private preview. The platform includes functional listing creation, marketplace integrations, listing analysis, and AI-assisted automation workflows.</p></div></div></section>
+    <nav class="next-project" aria-label="Next project"><a class="shell" href="agentforge.html"><span><small>Next project</small><strong>AgentForge</strong></span><span aria-hidden="true">↗</span></a></nav>
+  </main>
+  <footer class="site-footer"><div class="shell"><p>© <span data-year></span> Javier Gonzalez Noha</p><p>Project deep dive</p><a href="../index.html">Home ↑</a></div></footer>
+  <script src="../assets/js/site.js?v=20261022" defer></script>
+</body>
+</html>
