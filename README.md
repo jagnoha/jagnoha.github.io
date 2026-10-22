@@ -24,7 +24,7 @@ Then open `http://localhost:8000`.
 
 The site publishes two downloadable, repository-relative PDF résumés:
 
-- `assets/resumes/senior-full-stack-platform.pdf` — primary Senior Full-Stack & Platform Engineer résumé
-- `assets/resumes/senior-ai-platform.pdf` — alternative Senior AI & Platform Engineer résumé
+- `assets/resumes/senior-full-stack-platform.pdf` — Senior Software Engineer / Full-Stack & Platform résumé
+- `assets/resumes/senior-ai-platform.pdf` — AI & Developer Tooling résumé
 
 The primary résumé is linked from site navigation, and both variants are available in the homepage contact section.
